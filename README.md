@@ -16,7 +16,7 @@ The script `benchmark.py` can be used to export the model to ONNX file format. I
 * Concat of [CLS] token's last 4 layers
 
 ## Quantization
-In a very simplified manner, the quantization allows to reduce the size of the model and speedup the inference by transforming the model weights from `float32` to `int8`. More information [here](https://medium.com/microsoftazure/faster-and-smaller-quantized-nlp-with-hugging-face-and-onnx-runtime-ec5525473bb7) and here [https://pytorch.org/docs/stable/quantization.html].
+In a very simplified manner, the quantization allows to reduce the size of the model and speedup the inference by transforming the model weights from `float32` to `int8`. More information [here](https://medium.com/microsoftazure/faster-and-smaller-quantized-nlp-with-hugging-face-and-onnx-runtime-ec5525473bb7) and [here](https://pytorch.org/docs/stable/quantization.html).
 
 In this repo Dynamic Quantization is applied. 
 
