@@ -33,7 +33,7 @@ The files `train.py` and `benchmark.py` are responsible to do the job.
 The data is already in /data.\
 Before doing the training step do the pre-processing step using the command down below.
 
-`python3 data/pre_process.py`
+`cd data && python3 pre_process.py`
 
 Otherwise open the file and apply your own pre-processing step.
 
